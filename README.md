@@ -2,7 +2,7 @@
 
 ### NOTE: All credits in regards to the code goes to Chris Blakely on YouTube as this was a code along practice project. Project is deployed in GitHub Pages for easy access and usability.
 
-## Github Pages Link: [Click Here]()
+## Github Pages Link: [Click Here](https://kr0ma-git.github.io/react-notes-app/)
 
 ## This project uses react-icons:
 
