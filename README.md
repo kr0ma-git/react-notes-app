@@ -22,14 +22,22 @@
 
 -`"homepage": "http://{github-username}.github.io/{app-repo-name}"`
 
-### In the scripts, add the predeploy and deploy strings.
+### In the scripts, add the predeploy and deploy strings. Vite builds the app in the dist folder, so that's what we are using.
 
 ```
 "scripts": {
   //...
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d dist"
   }
+```
+
+### In vite.config.js, set the correct base path if your repo is not deployed at the root.
+
+```
+export default defineConfig({
+    base: '/repo-name/', plugins: [react()]
+});
 ```
 
 ### Deploy after pushing.
