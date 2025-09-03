@@ -19,4 +19,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 - npm run dev
 
-## NOTE: ALL CREDITS IN REGARDS TO THE CODE GOES TO Chris Blakely ON YOUTUBE AS THIS WAS A CODE ALONG PRACTICE PROJECT. PROJECT IS DEPLOYED IN GITHUB PAGES FOR EASY ACCESS AND USABILITY.
+## NOTE: All credits in regards to the code goes to Chris Blakely on YouTube as this was a code along practice project. Project is deployed in GitHub Pages for easy access and usability.
