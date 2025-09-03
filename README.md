@@ -1,8 +1,8 @@
 # React Notes Web App
 
-## NOTE: All credits in regards to the code goes to Chris Blakely on YouTube as this was a code along practice project. Project is deployed in GitHub Pages for easy access and usability.
+### NOTE: All credits in regards to the code goes to Chris Blakely on YouTube as this was a code along practice project. Project is deployed in GitHub Pages for easy access and usability.
 
-# Github Pages Link: [Click Here]()
+## Github Pages Link: [Click Here]()
 
 ## This project uses react-icons:
 
@@ -12,9 +12,9 @@
 
 - npm run dev
 
-## GitHub Pages Deployment:
+# GitHub Pages Deployment:
 
-# Install gh-pages as dev dependency then define the app's homepage string as a property in package.json. In the scripts, add the predeploy and deploy strings. Then deploy after pushing.
+## Install gh-pages as dev dependency then define the app's homepage string as a property in package.json. In the scripts, add the predeploy and deploy strings. Then deploy after pushing.
 
 - npm install gh-pages --save-dev
 
