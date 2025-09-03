@@ -6,27 +6,28 @@
 
 ## This project uses react-icons:
 
-- npm install react-icons
+`npm install react-icons`
 
 ## Testing and development:
 
-- npm run dev
+`npm run dev`
 
 # GitHub Pages Deployment:
 
 ## Install gh-pages as dev dependency then define the app's homepage string as a property in package.json. In the scripts, add the predeploy and deploy strings. Then deploy after pushing.
 
-- npm install gh-pages --save-dev
+`npm install gh-pages --save-dev`
 
-- "homepage": "http://{github-username}.github.io/{app-repo-name}"
+`"homepage": "http://{github-username}.github.io/{app-repo-name}"`
 
-- "scripts": {
+```"scripts": {
   //...
   "predeploy": npm run build",
   "deploy": gh-pages -d build"
   }
+```
 
-- npm run deploy
+`npm run deploy`
 
 # React + Vite
 
