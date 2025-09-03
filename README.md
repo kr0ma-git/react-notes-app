@@ -1,3 +1,33 @@
+# React Notes Web App
+
+## NOTE: All credits in regards to the code goes to Chris Blakely on YouTube as this was a code along practice project. Project is deployed in GitHub Pages for easy access and usability.
+
+# Github Pages Link: [Click Here]()
+
+## This project uses react-icons:
+
+- npm install react-icons
+
+## Testing and development:
+
+- npm run dev
+
+## GitHub Pages Deployment:
+
+# Install gh-pages as dev dependency then define the app's homepage string as a property in package.json. In the scripts, add the predeploy and deploy strings. Then deploy after pushing.
+
+- npm install gh-pages --save-dev
+
+- "homepage": "http://{github-username}.github.io/{app-repo-name}"
+
+- "scripts": {
+  //...
+  "predeploy": npm run build",
+  "deploy": gh-pages -d build"
+  }
+
+- npm run deploy
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -10,13 +40,3 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-## This project uses react-icons:
-
-- npm install react-icons
-
-## Testing and development:
-
-- npm run dev
-
-## NOTE: All credits in regards to the code goes to Chris Blakely on YouTube as this was a code along practice project. Project is deployed in GitHub Pages for easy access and usability.
