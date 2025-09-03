@@ -27,8 +27,8 @@
 ```
 "scripts": {
   //...
-  "predeploy": npm run build",
-  "deploy": gh-pages -d build"
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   }
 ```
 
