@@ -4,21 +4,25 @@
 
 ## Github Pages Link: [Click Here](https://kr0ma-git.github.io/react-notes-app/)
 
-## This project uses react-icons:
+This project uses react-icons:
 
 -`npm install react-icons`
 
-## Testing and development:
+Testing and development:
 
 -`npm run dev`
 
 # GitHub Pages Deployment:
 
-## Install gh-pages as dev dependency then define the app's homepage string as a property in package.json. In the scripts, add the predeploy and deploy strings. Then deploy after pushing.
+Install gh-pages as dev dependency.
 
 -`npm install gh-pages --save-dev`
 
+Define the app's homepage string as a property in package.json.
+
 -`"homepage": "http://{github-username}.github.io/{app-repo-name}"`
+
+In the scripts, add the predeploy and deploy strings.
 
 ```
 "scripts": {
@@ -27,6 +31,8 @@
   "deploy": gh-pages -d build"
   }
 ```
+
+Deploy after pushing.
 
 -`npm run deploy`
 
